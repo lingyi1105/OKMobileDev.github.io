@@ -2,11 +2,11 @@ new Vue({
     el: '#app',
     data: function () {
         return {
-            headerName: '73EX',
-            headerTitle: '73EX 数字货币交易平台',
-            headerSubtitle: '安全便捷 · 优质币种',
-            androidInstallTitle: '立即安装 73EX',
-            betaTitle: '立即安装 73EX',
+            headerName: '73Street',
+            headerTitle: '73Street 老韭菜囤币首选平台',
+            headerSubtitle: '币圈淘宝，币种丰富，请投资您熟悉的币种',
+            androidInstallTitle: '立即安装 73Street',
+            betaTitle: '立即安装 73Street',
             storeTitle: false,
             logo: './images/header-logo.png',
             androidDownloadURL: 'http://upgradeapp.oss-cn-hangzhou.aliyuncs.com/upgradeapp/73ex-android.apk',
