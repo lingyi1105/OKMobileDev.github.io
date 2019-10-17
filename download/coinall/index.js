@@ -40,7 +40,10 @@ new Vue({
             if (isWeChat() == true) {
                 $(".wx-tip").show();
             } else {
-                window.location = "ios-beta.html"
+                // 企业签名
+                // window.location = "ios-beta.html"
+                // 蒲公英超级签名
+                window.location = "beta/"
             }
         },
         android() {
