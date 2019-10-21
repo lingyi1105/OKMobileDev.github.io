@@ -67,17 +67,20 @@
 .tips-content {
     margin-top: 90px;
     margin-left: 41px;
+    margin-right: 20px;
 }
 
 .tips-cell {
     display: flex;
-    height: 60px;
+    min-height: 70px;
     align-items: center;
 }
 
 .tips-icon {
-    width: 32px;
-    height: 32px;
+    min-width: 32px;
+    min-height: 32px;
+    max-width: 32px;
+    max-height: 32px;
 }
 
 .tips-text-content {
