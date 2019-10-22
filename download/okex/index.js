@@ -33,7 +33,7 @@ const messages = {
 
 const i18n = new VueI18n({
     locale: ((navigator.language) ? navigator.language : navigator.userLanguage).substr(0, 2), // 设置语言
-    locale: 'en',
+    // locale: 'en',
     fallbackLocale: 'en',// 获取不到语言的话默认的语言
     messages // 语言包
 })
