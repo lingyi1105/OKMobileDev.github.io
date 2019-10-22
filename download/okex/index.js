@@ -4,10 +4,13 @@ const messages = {
         headerSubtitle: '安全 · 稳定 · 可信',
         androidInstallTitle: '安装 Android 版',
         betaTitle: '安装内测版',
+        icon1: './icon/icon-security.png',
         title1: '更安全',
         subtitle1: '老牌交易所',
+        icon2: './icon/icon-candy.png',
         title2: '更多糖果',
         subtitle2: '多元化奖励机制',
+        icon3: './icon/icon-various.png',
         title3: '更多样',
         subtitle3: '支持合约等多种交易类型',
     },
@@ -16,10 +19,13 @@ const messages = {
         headerSubtitle: 'Global Leader of Blockchain Technology',
         androidInstallTitle: 'Download for Android',
         betaTitle: 'Beta APP',
+        icon1: './icon/icon_en_1.png',
         title1: 'Spot / Margin Trading',
         subtitle1: 'Trade over a hundred types of tokens including Bitcoin',
+        icon2: './icon/icon_en_2.png',
         title2: 'Futures Contract',
         subtitle2: 'Arbitrage and hedge your risks with the convenient leverage option',
+        icon3: './icon/icon_en_3.png',
         title3: 'Perpetual Swap',
         subtitle3: 'Never-expiring contract with up to 100x leverage and an advanced risk management system',
     }
@@ -27,6 +33,7 @@ const messages = {
 
 const i18n = new VueI18n({
     locale: ((navigator.language) ? navigator.language : navigator.userLanguage).substr(0, 2), // 设置语言
+    locale: 'en',
     fallbackLocale: 'en',// 获取不到语言的话默认的语言
     messages // 语言包
 })
@@ -45,15 +52,15 @@ new Vue({
             logo: './images/logo.png',
             androidDownloadURL: 'https://ok-public-hz.oss-cn-hangzhou.aliyuncs.com/upgradeapp/OKEx-android.apk',
             tipsData: [{
-                icon: './icon/icon-security.png',
+                icon: i18n.t('icon1'),
                 title: i18n.t('title1'),
                 subtitle: i18n.t('subtitle1'),
             }, {
-                icon: './icon/icon-candy.png',
+                icon: i18n.t('icon2'),
                 title: i18n.t('title2'),
                 subtitle: i18n.t('subtitle2'),
             }, {
-                icon: './icon/icon-various.png',
+                icon: i18n.t('icon3'),
                 title: i18n.t('title3'),
                 subtitle: i18n.t('subtitle3'),
             }]
