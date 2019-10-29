@@ -9,7 +9,11 @@ Vue.component('android-install-footer', {
         handleDownload() {
             if (isWeChat() == false) {
                 var originInstallTitle = this.install;
-                this.install = '正在安装...';
+                if (i18n.locale != 'zh') {
+                    this.install = 'Downloading...';
+                }else {
+                    this.install = '正在安装...';
+                }
                 this.loading = true;
                 setTimeout(() => {
                     this.loading = false;
