@@ -9,12 +9,12 @@ Vue.component('android-install-footer', {
         handleDownload() {
             if (isWeChat() == false) {
                 var originInstallTitle = this.install;
-                // if (i18n.locale != 'zh') {
-                //     this.install = 'Downloading...';
-                // }else {
-                //     this.install = '正在安装...';
-                // }
-                this.install = '正在安装...';
+                let locale = ((navigator.language) ? navigator.language : navigator.userLanguage).substr(0, 2);
+                if (locale == 'zh') {
+                    this.install = '正在安装...';
+                } else {
+                    this.install = ' ';
+                }
                 this.loading = true;
                 setTimeout(() => {
                     this.loading = false;
