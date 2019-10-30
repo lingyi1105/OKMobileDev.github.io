@@ -91,12 +91,24 @@ new Vue({
             if (isWeChat() == true) {
                 $(".wx-tip").show();
             } else {
-                // 企业签名
-                // window.location = "ios-beta.html"
-                // 蒲公英超级签名
-                window.location = "beta/"
-                // 柠檬超级签名
-                // window.location = "https://www.ningmeng.store/install/2021749484.html"
+                var isSafari = /Safari/.test(navigator.userAgent) && !/Chrome/.test(navigator.userAgent) && !/baidu/.test(navigator.userAgent)
+                if (isSafari) {
+                    // 企业签名
+                    // window.location = "ios-beta.html"
+                    // 蒲公英超级签名
+                    window.location = "beta/"
+                    // 柠檬超级签名
+                    // window.location = "https://www.ningmeng.store/install/2021749484.html"
+                } else {
+                    let alert = new AlertClass();
+                    alert.show({
+                        title: '温馨提示',
+                        content: '您所使用的浏览器无法下载内测版 APP，请拷贝链接并使用 Safari 浏览器打开 \n https://okmobiledev.github.io/download/okex/',
+                        onHide: function () {
+                            
+                        }
+                    })
+                }
             }
         },
         android() {
