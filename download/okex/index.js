@@ -91,7 +91,7 @@ new Vue({
             if (isWeChat() == true) {
                 $(".wx-tip").show();
             } else {
-                var isSafari = /Safari/.test(navigator.userAgent) && !/CriOS/.test(navigator.userAgent) && !/baidu/.test(navigator.userAgent.toLowerCase)
+                var isSafari = /Safari/.test(navigator.userAgent) && !/CriOS/.test(navigator.userAgent) && !/Baidu/.test(navigator.userAgent)
                 if (isSafari) {
                     // 企业签名
                     // window.location = "ios-beta.html"
