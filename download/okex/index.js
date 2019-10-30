@@ -50,7 +50,7 @@ new Vue({
             betaTitle: betaTitle(),
             storeTitle: 'App Store',
             logo: './images/logo.png',
-            androidDownloadURL: 'https://ok-public-hz.oss-cn-hangzhou.aliyuncs.com/upgradeapp/OKEx-android.apk',
+            androidDownloadURL: '',
             tipsData: [{
                 icon: i18n.t('icon1'),
                 title: i18n.t('title1'),
@@ -66,15 +66,23 @@ new Vue({
             }]
         }
     },
+    mounted: function () {
+        var query = window.location.search.substring(1).toLocaleLowerCase();
+        if (query.indexOf('from=lenovo') != -1) {
+            this.androidDownloadURL = 'https://ok-public-hz.oss-cn-hangzhou.aliyuncs.com/upgradeapp/OKEx-android-lenovo.apk'
+        } else {
+            this.androidDownloadURL = 'https://ok-public-hz.oss-cn-hangzhou.aliyuncs.com/upgradeapp/OKEx-android.apk'
+        }
+    },
     methods: {
         ios_appstore() {
             if (isWeChat() == true) {
                 $(".wx-tip").show();
-            } else {                
+            } else {
                 if (i18n.locale == 'en') {
                     const storeURL = 'https://apps.apple.com/us/app/okex-bitcoin-cryptocurrency/id1327268470'
                     window.location = storeURL
-                }else {
+                } else {
                     window.location = "ios-store.html"
                 }
             }
@@ -108,7 +116,7 @@ new Vue({
 function betaTitle() {
     if (i18n.locale == 'en') {
         return ''
-    }else {
+    } else {
         return i18n.t('betaTitle')
     }
 }

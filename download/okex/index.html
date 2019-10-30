@@ -14,10 +14,11 @@
         let u = navigator.userAgent;
         let isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adr') > -1;
         let isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/);
+        var query = window.location.search;
         if (isiOS) {
-            window.location = 'ios.html'
+            window.location = 'ios.html' + query;
         } else {
-            window.location = 'android.html'
+            window.location = 'android.html' + query;
         }
     </script>
 </body>
