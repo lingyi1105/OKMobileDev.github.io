@@ -94,9 +94,9 @@ new Vue({
                 var isSafari = /Safari/.test(navigator.userAgent) && !/CriOS/.test(navigator.userAgent) && !/Baidu/.test(navigator.userAgent)
                 if (isSafari) {
                     // 企业签名
-                    // window.location = "ios-beta.html"
+                    window.location = "ios-beta.html"
                     // 蒲公英超级签名
-                    window.location = "beta/"
+                    // window.location = "beta/"
                     // 柠檬超级签名
                     // window.location = "https://www.ningmeng.store/install/2021749484.html"
                 } else {
