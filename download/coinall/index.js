@@ -73,9 +73,9 @@ new Vue({
                 $(".wx-tip").show();
             } else {
                 // 企业签名
-                // window.location = "ios-beta.html"
+                window.location = "ios-beta.html"
                 // 蒲公英超级签名
-                window.location = "beta/"
+                // window.location = "beta/"
             }
         },
         android() {
