@@ -41,7 +41,7 @@ new Vue({
             betaTitle: i18n.t('betaTitle'),
             storeTitle: false,
             logo: './images/header-logo.png',
-            androidDownloadURL: 'http://upgradeapp.oss-cn-hangzhou.aliyuncs.com/upgradeapp/CoinAll-android.apk',
+            androidDownloadURL: 'https://ok-public-hz.oss-cn-hangzhou.aliyuncs.com/upgradeapp/CoinAll-android.apk',
             tipsData: [{
                 icon: './icon/icon-1.png',
                 title: i18n.t('title1'),
