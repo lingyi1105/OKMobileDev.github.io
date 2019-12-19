@@ -9,7 +9,7 @@ new Vue({
             betaTitle: '立即安装 73Street',
             storeTitle: false,
             logo: './images/header-logo.png',
-            androidDownloadURL: 'http://upgradeapp.oss-cn-hangzhou.aliyuncs.com/upgradeapp/73ex-android.apk',
+            androidDownloadURL: 'http://hkpublic.oss-cn-hongkong.aliyuncs.com/upgradeapp/73ex-android.apk',
             tipsData: [{
                 icon: './icon/icon-1.png',
                 title: '高效的撮合系统',

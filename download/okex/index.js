@@ -69,9 +69,9 @@ new Vue({
     mounted: function () {
         var query = window.location.search.substring(1).toLocaleLowerCase();
         if (query.indexOf('from=lenovo') != -1) {
-            this.androidDownloadURL = 'https://ok-public-hz.oss-cn-hangzhou.aliyuncs.com/upgradeapp/OKEx-android-lenovo.apk'
+            this.androidDownloadURL = 'https://hkpublic.oss-cn-hongkong.aliyuncs.com/upgradeapp/OKEx-android-lenovo.apk'
         } else {
-            this.androidDownloadURL = 'https://ok-public-hz.oss-cn-hangzhou.aliyuncs.com/upgradeapp/OKEx-android.apk'
+            this.androidDownloadURL = 'https://hkpublic.oss-cn-hongkong.aliyuncs.com/upgradeapp/OKEx-android.apk'
         }
     },
     methods: {

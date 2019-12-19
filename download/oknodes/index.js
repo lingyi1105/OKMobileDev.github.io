@@ -9,7 +9,7 @@ new Vue({
             betaTitle: '立即安装 OKNodes',
             storeTitle: false,
             logo: './images/header-logo.png',
-            androidDownloadURL: 'http://upgradeapp.oss-cn-hangzhou.aliyuncs.com/upgradeapp/OKNodes-android.apk',
+            androidDownloadURL: 'http://hkpublic.oss-cn-hongkong.aliyuncs.com/upgradeapp/OKNodes-android.apk',
             tipsData: [{
                 icon: './icon/icon-1.png',
                 title: '高效的撮合系统',
