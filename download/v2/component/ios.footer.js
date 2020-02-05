@@ -33,7 +33,7 @@ Vue.component('ios-install-footer', {
                         稳定安全，更新方便快捷</div>
                     <div
                         style="margin-top: 2px; text-align: center; font-size: 14px; color: #333333; font-family: Arial, Helvetica, sans-serif;">
-                        免费提供公共 Apple ID</div>
+                        非大陆 Apple ID</div>
                 </div>
             </div>
             <div style="position: flex; width: 50%;">
