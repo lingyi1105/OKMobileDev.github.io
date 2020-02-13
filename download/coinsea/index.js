@@ -9,7 +9,7 @@ new Vue({
             betaTitle: '立即安装 CoinSea',
             storeTitle: false,
             logo: './images/header-logo.png',
-            androidDownloadURL: 'http://hkpublic.oss-cn-hongkong.aliyuncs.com/upgradeapp/coinsea-android.apk',
+            androidDownloadURL: 'https://hkpublic.oss-accelerate.aliyuncs.com/upgradeapp/coinsea-android.apk',
             tipsData: [{
                 icon: './icon/icon-1.png',
                 title: '高效的撮合系统',
