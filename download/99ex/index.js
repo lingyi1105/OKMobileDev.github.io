@@ -41,7 +41,7 @@ new Vue({
                 $(".wx-tip").show();
             } else {
                 // window.location = "ios-beta.html"
-                window.location = "https://testflight.apple.com/join/8zZ7e7Js"
+                window.location = "https://testflight.apple.com/join/LT0nKrgz"
             }
         },
         android() {
