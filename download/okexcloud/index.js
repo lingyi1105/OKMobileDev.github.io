@@ -3,13 +3,13 @@ new Vue({
     data: function () {
         return {
             headerName: ' ',
-            headerTitle: '一键直达\n所有 OK 开放平台交易所',
+            headerTitle: '一键直达\n所有 OKEx 云交易所',
             headerSubtitle: '',
-            androidInstallTitle: '立即安装 OKNodes',
-            betaTitle: '立即安装 OKNodes',
+            androidInstallTitle: '立即安装 OKEx Cloud',
+            betaTitle: '立即安装 OKEx Cloud',
             storeTitle: false,
             logo: './images/header-logo.png',
-            androidDownloadURL: 'https://hkpublic.oss-accelerate.aliyuncs.com/upgradeapp/OKNodes-android.apk',
+            androidDownloadURL: 'https://hkpublic.oss-accelerate.aliyuncs.com/upgradeapp/OKExCloud-android.apk',
             testflightTips: '<div>为给您提供更加稳定的服务，iOS 版本已升级到 TestFlignt 测试版，使用稳定无掉签困扰。</div><div>在您点击安装应用后需按提示<b style=font-size: 13px;>先下载 TestFlignt</b>，这不会对您的设备安全产生任何影响，请安心下载。</div>',
             tipsData: [{
                 icon: './icon/icon-1.png',
