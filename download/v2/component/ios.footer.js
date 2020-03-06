@@ -45,6 +45,11 @@ Vue.component('ios-install-footer', {
                     {{ tftitle }}
                 </button>
             </div>
+            <div>
+            <div style="margin-top: 15px; text-align: center; font-size: 14px; color: #999; font-family: Arial, Helvetica, sans-serif;">
+                不掉签
+            </div>
+        </div>
         </div>
 
         <div style="position: flex; width: 33.3%;">
