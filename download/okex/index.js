@@ -3,7 +3,7 @@ const messages = {
         headerTitle: '全球领先的数字资产交易平台',
         headerSubtitle: '安全 · 稳定 · 可信',
         androidInstallTitle: '安装 Android 版',
-        betaTitle: '安装内测版',
+        betaTitle: '内测版',
         icon1: './icon/icon-security.png',
         title1: '更安全',
         subtitle1: '老牌交易所',
@@ -13,6 +13,7 @@ const messages = {
         icon3: './icon/icon-various.png',
         title3: '更多样',
         subtitle3: '支持合约等多种交易类型',
+        tftitle: 'TestFlight 版',
     },
     en: {
         headerTitle: 'The Most Trusted Digital \n Asset Exchange',
@@ -28,6 +29,7 @@ const messages = {
         icon3: './icon/icon_en_3.png',
         title3: 'Perpetual Swap',
         subtitle3: 'Never-expiring contract with up to 100x leverage and an advanced risk management system',
+        tftitle: 'TestFlight',
     }
 }
 
@@ -49,6 +51,7 @@ new Vue({
             // betaTitle: i18n.t('betaTitle'),
             betaTitle: betaTitle(),
             storeTitle: 'App Store',
+            tftitle: i18n.t('tftitle'),
             logo: './images/logo.png',
             androidDownloadURL: '',
             tipsData: [{
@@ -109,6 +112,13 @@ new Vue({
                         }
                     })
                 }
+            }
+        },
+        ios_testflight() {
+            if (isWeChat() == true) {
+                $(".wx-tip").show();
+            }else {
+                window.location = "https://testflight.apple.com/join/m7PeBGDv"
             }
         },
         android() {

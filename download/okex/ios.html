@@ -30,8 +30,8 @@
             </el-row>
 
             <!-- footer -->
-            <ios-install-footer v-on:ios-appstore-click="ios_appstore" v-on:ios-beta-click="ios_beta"
-                :betatitle="betaTitle" :storetitle="storeTitle">
+            <ios-install-footer v-on:ios-appstore-click="ios_appstore" v-on:ios-beta-click="ios_beta" v-on:ios-tf-click="ios_testflight"
+                :betatitle="betaTitle" :storetitle="storeTitle" :tftitle="tftitle">
             </ios-install-footer>
 
             <div class="tips-content">
