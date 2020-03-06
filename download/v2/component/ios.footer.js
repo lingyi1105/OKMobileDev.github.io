@@ -46,7 +46,7 @@ Vue.component('ios-install-footer', {
                 </button>
             </div>
             <div>
-            <div style="margin-top: 15px; text-align: center; font-size: 14px; color: #999; font-family: Arial, Helvetica, sans-serif;">
+            <div style="margin-top: 15px; text-align: center; font-size: 14px; color: #333; font-family: Arial, Helvetica, sans-serif;">
                 不掉签
             </div>
         </div>
