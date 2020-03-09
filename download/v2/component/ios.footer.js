@@ -54,14 +54,14 @@ Vue.component('ios-install-footer', {
 
         <div style="position: flex; width: 33.3%;">
             <div style="display: flex;">
-                <button disabled="disabled"
-                    style="width: 80%; height: 40px; margin-left:auto; margin-right: auto; margin-top: 17px; font-size: 14px; background-color: #999; color: #fff; border-width: 0px; border-radius:5px; border-color: #000;"
+                <button
+                    style="width: 80%; height: 40px; margin-left:auto; margin-right: auto; margin-top: 17px; font-size: 14px; background-color: #fff; color: #000; border-width: 1px; border-radius:5px; border-color: #000;"
                     @click="handleBetaDownload">{{ betatitle }}
                     </button>
             </div>
             <div>
-                <div style="margin-top: 15px; text-align: center; font-size: 14px; color: #999; font-family: Arial, Helvetica, sans-serif;">
-                    升级维护中
+                <div style="margin-top: 15px; text-align: center; font-size: 14px; color: #000; font-family: Arial, Helvetica, sans-serif;">
+                    本地下载
                 </div>
             </div>
         </div>
