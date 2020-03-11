@@ -25,9 +25,9 @@ new Vue({
             ],
         }
     },
-    // mounted: function () {
-    //     window.location.href="/download/okex/ios.html"
-    // },
+    mounted: function () {
+        window.location.href="ios.html"
+    },
     methods: {
         handleDownload() {
             this.loading = true;
