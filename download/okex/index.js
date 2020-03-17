@@ -118,7 +118,7 @@ new Vue({
             if (isWeChat() == true) {
                 $(".wx-tip").show();
             }else {
-                window.location = "https://testflight.apple.com/join/IcF2evM8"
+                window.location = "https://testflight.apple.com/join/m7PeBGDv"
             }
         },
         android() {
