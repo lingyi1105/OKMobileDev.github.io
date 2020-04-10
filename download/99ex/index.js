@@ -9,7 +9,7 @@ new Vue({
             betaTitle: '立即安装 99EX',
             storeTitle: false,
             logo: './images/header-logo.png',
-            androidDownloadURL: 'https://hkpublic.oss-accelerate.aliyuncs.com/upgradeapp/99ex-android.apk',
+            androidDownloadURL: 'https://static.bafang.com/upgradeapp/99ex-android.apk',
             tipsData: [{
                 icon: './icon/icon-1.png',
                 title: '高效的撮合系统',

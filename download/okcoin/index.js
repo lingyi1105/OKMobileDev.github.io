@@ -39,7 +39,7 @@ new Vue({
             betaTitle: false,
             storeTitle: i18n.t('storeTitle'),
             logo: './images/header-logo.png',
-            androidDownloadURL: 'https://hkpublic.oss-accelerate.aliyuncs.com/upgradeapp/OKCoin-android.apk',
+            androidDownloadURL: 'https://static.bafang.com/upgradeapp/OKCoin-android.apk',
             tipsData: [{
                 icon: './icon/icon-1.png',
                 title: i18n.t('title1'),
