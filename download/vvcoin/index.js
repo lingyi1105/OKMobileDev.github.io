@@ -9,7 +9,7 @@ new Vue({
             betaTitle: '立即安装 VVcoin',
             storeTitle: false,
             logo: './images/header-logo.png',
-            androidDownloadURL: 'https://static.bafang.com/upgradeapp/VVCoin-android.apk',
+            androidDownloadURL: 'https://ok-public-hk.oss-accelerate.aliyuncs.com/upgradeapp/VVCoin-android.apk',
             tipsData: [{
                 icon: './icon/icon-1.png',
                 title: '高效的撮合系统',

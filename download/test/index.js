@@ -44,7 +44,7 @@ new Vue({
             betaTitle: i18n.t('betaTitle'),
             storeTitle: 'App Store',
             logo: './images/logo.png',
-            androidDownloadURL: 'https://static.bafang.com/upgradeapp/OKEx-android.apk',
+            androidDownloadURL: 'https://ok-public-hk.oss-accelerate.aliyuncs.com/upgradeapp/OKEx-android.apk',
             tipsData: [{
                 icon: './icon/icon-security.png',
                 title: i18n.t('title1'),

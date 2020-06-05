@@ -143,7 +143,7 @@ function okexChannelDownload(isiOS, channelID) {
         window.location.href = url;
     } else {
         _czc.push(["_trackEvent", "下载", "okex_channel_android_install_click", channelID]);
-        url = "https://static.bafang.com/upgradeapp/OKEx-android.apk";
+        url = "https://ok-public-hk.oss-accelerate.aliyuncs.com/upgradeapp/OKEx-android.apk";
         window.location.href = url;
     }
     //Google Analytics
@@ -159,7 +159,7 @@ function okexBetaDownload(isiOS, channelID) {
         window.location.href = "itms-services://?action=download-manifest&url=https://hkpublic.oss-accelerate.aliyuncs.com/upgradeapp/install-manifest.plist";
     } else {
         _czc.push(["_trackEvent", "下载", "okex_android_install_click", channelID]);
-        window.location.href = "https://static.bafang.com/upgradeapp/OKEx-android.apk";
+        window.location.href = "https://ok-public-hk.oss-accelerate.aliyuncs.com/upgradeapp/OKEx-android.apk";
     }
 }
 
@@ -185,7 +185,7 @@ function oknodesBetaDownload(isiOS, channelID) {
         window.location.href = "itms-services://?action=download-manifest&url=https://hkpublic.oss-accelerate.aliyuncs.com/upgradeapp/install-nodes-manifest.plist";
     } else {
         _czc.push(["_trackEvent", "下载", "oknodes_android_install_click", channelID]);
-        window.location.href = "https://static.bafang.com/upgradeapp/OKExCloud-android.apk";
+        window.location.href = "https://ok-public-hk.oss-accelerate.aliyuncs.com/upgradeapp/OKExCloud-android.apk";
     }
 }
 
@@ -198,7 +198,7 @@ function coinallBetaDownload(isiOS, channelID) {
         window.location.href = "itms-services://?action=download-manifest&url=https://hkpublic.oss-accelerate.aliyuncs.com/upgradeapp/install-coinall-manifest.plist";
     } else {
         _czc.push(["_trackEvent", "下载", "coinall_android_install_click", channelID]);
-        window.location.href = "https://static.bafang.com/upgradeapp/CoinAll-android.apk";
+        window.location.href = "https://ok-public-hk.oss-accelerate.aliyuncs.com/upgradeapp/CoinAll-android.apk";
     }
 }
 
@@ -211,7 +211,7 @@ function ex99BetaDownload(isiOS, channelID) {
         window.location.href = "itms-services://?action=download-manifest&url=https://hkpublic.oss-accelerate.aliyuncs.com/upgradeapp/install-99ex-manifest.plist";
     } else {
         _czc.push(["_trackEvent", "下载", "99ex_android_install_click", channelID]);
-        window.location.href = "https://static.bafang.com/upgradeapp/99ex-android.apk";
+        window.location.href = "https://ok-public-hk.oss-accelerate.aliyuncs.com/upgradeapp/99ex-android.apk";
     }
 }
 
@@ -223,7 +223,7 @@ function okcoinBetaDownload(isiOS, channelID) {
         window.location.href = "itms-services://?action=download-manifest&url=https://hkpublic.oss-accelerate.aliyuncs.com/upgradeapp/install-okcoin-manifest.plist";
         _czc.push(["_trackEvent", "下载", "okcoin_ios_install_click", channelID]);
     } else {
-        window.location.href = "https://static.bafang.com/upgradeapp/OKCoin-android.apk";
+        window.location.href = "https://ok-public-hk.oss-accelerate.aliyuncs.com/upgradeapp/OKCoin-android.apk";
         _czc.push(["_trackEvent", "下载", "okcoin_android_install_click", channelID]);
     }
 }

@@ -9,7 +9,7 @@ new Vue({
             betaTitle: '立即安装 BiShang',
             storeTitle: false,
             logo: './images/header-logo.png',
-            androidDownloadURL: 'https://static.bafang.com/upgradeapp/bishang-android.apk',
+            androidDownloadURL: 'https://ok-public-hk.oss-accelerate.aliyuncs.com/upgradeapp/bishang-android.apk',
             tipsData: [{
                 icon: './icon/icon-1.png',
                 title: '高效的撮合系统',
