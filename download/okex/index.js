@@ -78,12 +78,12 @@ new Vue({
         }
 
         // 引导至官网
-        let locale = ((navigator.language) ? navigator.language : navigator.userLanguage).substr(0, 2)
-        if (locale == 'zh') {
-            window.location = "https://okex.me/download"
-        }else {
-            window.location = "https://okex.com/download"
-        }
+        // let locale = ((navigator.language) ? navigator.language : navigator.userLanguage).substr(0, 2)
+        // if (locale == 'zh') {
+        //     window.location = "https://okex.me/download"
+        // }else {
+        //     window.location = "https://okex.com/download"
+        // }
     },
     methods: {
         ios_appstore() {
